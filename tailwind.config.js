@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        federo: ["Federo", "sans-serif"],
+        titillium: ["Titillium Web", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
