@@ -37,7 +37,7 @@ const NavBar = ({ connect, isConnected }) => {
         ) : (
           <button
             onClick={connect}
-            className="bg-yellow-500 rounded overflow px-2 py-2 mr-3 transition-colors duration-150 focus:drop-shadow-xl hover:bg-yellow-400 "
+            className="bg-yellow-500 rounded overflow px-2 py-2 mr-3 transition-colors duration-150 focus:drop-shadow-xl hover:bg-yellow-400"
           >
             Connected!
           </button>
